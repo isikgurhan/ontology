@@ -1,0 +1,443 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/isikgurhan/ontologies/2022/10/KGAssignmentFirst"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/isikgurhan/ontologies/2022/10/KGAssignmentFirst">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#County"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CovidData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasConfirmedCovidCases"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasConfirmedCovidDeaths"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasConfirmedCovidRecovered"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCounty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasIGEasting"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasIGNorthing"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLat"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLong"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasORIGID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPopulationCensus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPopulationProportionCovidCases"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSHAPE_Area"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasShape_Length"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTimeStamp"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasUGI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carlow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dublin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Galway"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#12789"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#646"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#CovidData"/>
+        <Class IRI="#County"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#County"/>
+        <NamedIndividual IRI="#Carlow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#County"/>
+        <NamedIndividual IRI="#Dublin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#County"/>
+        <NamedIndividual IRI="#Galway"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CovidData"/>
+        <NamedIndividual IRI="#1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CovidData"/>
+        <NamedIndividual IRI="#12789"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CovidData"/>
+        <NamedIndividual IRI="#2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CovidData"/>
+        <NamedIndividual IRI="#3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CovidData"/>
+        <NamedIndividual IRI="#646"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carlow"/>
+        <NamedIndividual IRI="#Dublin"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Carlow"/>
+        <NamedIndividual IRI="#Galway"/>
+    </DifferentIndividuals>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIGEasting"/>
+        <NamedIndividual IRI="#Carlow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">278661.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIGNorthing"/>
+        <NamedIndividual IRI="#Carlow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">163444.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLat"/>
+        <NamedIndividual IRI="#Carlow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">52.7168</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLong"/>
+        <NamedIndividual IRI="#Carlow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">-6.8367</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasORIGID"/>
+        <NamedIndividual IRI="#Carlow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPopulationCensus"/>
+        <NamedIndividual IRI="#Carlow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">56932.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSHAPE_Area"/>
+        <NamedIndividual IRI="#Carlow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.118863</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasShape_Length"/>
+        <NamedIndividual IRI="#Carlow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.284159</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUGI"/>
+        <NamedIndividual IRI="#Carlow"/>
+        <Literal>http://data.geohive.ie/resource/county/2ae19629-143d-13a3-e055-000000000001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConfirmedCovidCases"/>
+        <NamedIndividual IRI="#1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConfirmedCovidDeaths"/>
+        <NamedIndividual IRI="#1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConfirmedCovidRecovered"/>
+        <NamedIndividual IRI="#1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCounty"/>
+        <NamedIndividual IRI="#1"/>
+        <Literal>Carlow</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPopulationProportionCovidCases"/>
+        <NamedIndividual IRI="#1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTimeStamp"/>
+        <NamedIndividual IRI="#1"/>
+        <Literal>2020/02/27_00:00:00+00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConfirmedCovidCases"/>
+        <NamedIndividual IRI="#12789"/>
+        <Literal>6318</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCounty"/>
+        <NamedIndividual IRI="#12789"/>
+        <Literal>Tipperary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPopulationProportionCovidCases"/>
+        <NamedIndividual IRI="#12789"/>
+        <Literal>3959.81272</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTimeStamp"/>
+        <NamedIndividual IRI="#12789"/>
+        <Literal>2021/07/04 00:00:00+00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConfirmedCovidCases"/>
+        <NamedIndividual IRI="#2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConfirmedCovidDeaths"/>
+        <NamedIndividual IRI="#2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConfirmedCovidRecovered"/>
+        <NamedIndividual IRI="#2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCounty"/>
+        <NamedIndividual IRI="#2"/>
+        <Literal>Cavan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPopulationProportionCovidCases"/>
+        <NamedIndividual IRI="#2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTimeStamp"/>
+        <NamedIndividual IRI="#2"/>
+        <Literal>2020/02/27_00:00:00+00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCounty"/>
+        <NamedIndividual IRI="#3"/>
+        <Literal>Clare</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTimeStamp"/>
+        <NamedIndividual IRI="#3"/>
+        <Literal>2020/02/27_00:00:00+00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConfirmedCovidCases"/>
+        <NamedIndividual IRI="#646"/>
+        <Literal>26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConfirmedCovidDeaths"/>
+        <NamedIndividual IRI="#646"/>
+        <Literal>na</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConfirmedCovidRecovered"/>
+        <NamedIndividual IRI="#646"/>
+        <Literal>na</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCounty"/>
+        <NamedIndividual IRI="#646"/>
+        <Literal>Tipperary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPopulationProportionCovidCases"/>
+        <NamedIndividual IRI="#646"/>
+        <Literal>16.2955</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTimeStamp"/>
+        <NamedIndividual IRI="#646"/>
+        <Literal>2020/03/24 00:00:00+00</Literal>
+    </DataPropertyAssertion>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasConfirmedCovidCases"/>
+        <DataProperty IRI="#hasTimeStamp"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasConfirmedCovidDeaths"/>
+        <DataProperty IRI="#hasTimeStamp"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasConfirmedCovidRecovered"/>
+        <DataProperty IRI="#hasTimeStamp"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasPopulationProportionCovidCases"/>
+        <DataProperty IRI="#hasTimeStamp"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasTimeStamp"/>
+        <DataProperty IRI="#hasCounty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasConfirmedCovidCases"/>
+        <Class IRI="#CovidData"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasConfirmedCovidDeaths"/>
+        <Class IRI="#CovidData"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasConfirmedCovidRecovered"/>
+        <Class IRI="#CovidData"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCounty"/>
+        <Class IRI="#CovidData"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasIGEasting"/>
+        <Class IRI="#County"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasIGNorthing"/>
+        <Class IRI="#County"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLat"/>
+        <Class IRI="#County"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLong"/>
+        <Class IRI="#County"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasORIGID"/>
+        <Class IRI="#County"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPopulationCensus"/>
+        <Class IRI="#County"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPopulationProportionCovidCases"/>
+        <Class IRI="#CovidData"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSHAPE_Area"/>
+        <Class IRI="#County"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasShape_Length"/>
+        <Class IRI="#County"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTimeStamp"/>
+        <Class IRI="#CovidData"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasUGI"/>
+        <Class IRI="#County"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasConfirmedCovidCases"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasConfirmedCovidDeaths"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasConfirmedCovidRecovered"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCounty"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasIGEasting"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasIGNorthing"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasLat"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasLong"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasORIGID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPopulationCensus"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPopulationProportionCovidCases"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSHAPE_Area"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasShape_Length"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTimeStamp"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasUGI"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
